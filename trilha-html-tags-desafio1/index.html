@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Luana Mattana Damin">
+  <title>Módulo I - Primeiros Passos com HTML</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML - Resumo por Luana Mattana Damin</h1>
+    <hr />
+  </header>
+
+  <main>
+    <h2>Introdução</h2>
+
+    <p>Este é um desafio proposto no curso de html da DIO de front-end o qual o objetivo é explicar algumas tags
+      aprendidas nas nossas aulas.<br>
+      Além de revisar o conteúdo ensinado, essa página também servirá para consultas como um guia de códigos básicos
+      para pessoas que estão iniciando, assim como eu. Vamos lá!</p>
+    <br>
+
+    <h2>Índice</h2>
+   
+    <ul>
+      <li><a href="#historia">História dos computadores</a></li>
+      <li><a href="#internet">Como surgiu a internet?</a></li>
+      <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+      <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+      <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+      <li><a href="#principais">Principais tags básicas de um HTML</a></li>
+      <li><a href="#formulario">Campos de Formulário - Tags Input e seus tipos</a></li>
+      <li><a href="#midia">Tags de Mídia no HTML</a></li>
+      <li><a href="#tabela">Tags para Tabelas em HTML</a></li>
+      <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+    <br>
+
+    <h2 id="historia">História dos computadores</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Os primeiros computadores surgiram para ajudar em cálculos complexos.Eram enormes, ocupavam salas inteiras e
+      usavam válvulas (como lâmpadas) para funcionar. </p>
+    <p><strong>1a geração: </strong>Considerado o primeiro computador foi o <i><u>Mark I (1944)</u></i> com processos
+      mecânicos e válvulas criado nos Estados Unidos.</p>
+    <p>Na sequencia surgiu o <i><u>Colossus(1946)</u></i> na Alemanha e o <i><u>ENIAC(1946)</u></i> nos Estados Unidos.
+      Ambos surgiram também para auxiliar nos cálculos, bem como na criptografia e com a missão especial de auxiliar na
+      guerra. Colossus do lado da alemão e ENIAC do lado americano.</p>
+    <p><strong>2a geração (1959-1965): </strong> Houve uma grande evolução das válvulas para transistores. Os
+      transitores conseguiram diminuir enormemente o tamanho dos computadores, mesmo ainda grandes, para época foi uma
+      super evolução. </p>
+    <p><strong>3a geração (1965-1970): </strong> evolução para circuito integrado - chips. Isso fez com que os
+      computadores diminuíssem ainda mais o tamanho. </p>
+    <p><strong>4a geração (a 1971 até hoje): </strong> Os circuitos integrados passaram para microprocessadores, chips
+      continuam, mas sempre evoluindo. Surgiu o <i>Personal Computer (PCs) </i>- computadores pessoais, fazendo com o
+      que o computador se tornasse cada vez mais popular e acessível para uso pessoal. </p>
+    <p><strong>5a geração (estamos entrando agora): </strong> AIs, computadores quânticos, criptomoedas, metaverso e
+      etc.</p>
+    <br>
+
+     <h2 id="internet">Como surgiu a internet?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Antes de tudo é legal saber que um dos primeiros sistemas de comunicação foi o <i><u>telégrafo (1837)</u></i>.
+      Ele funcionava através do <i> código morse </i> que se dá através de sinais com combinações de toques que
+      significam letras para passar a mensagem para o outro lado. Em 1958 foi traçado um cabo de ponta a ponta de um
+      continente a outro. Isso fez com que a comunicação intercontinental fosse realizada pela primeira vez através do
+      oceano.</p>
+    <p><i><u>Em 1950 com Guerra Fria (EUA vs União Soviética)</u></i> existia a briga pela corrida espacial (primeiro
+      país a chegar na lua). Nessa época explodiam as técnologias porque quem estava um passo a frente estava em
+      vantagem. O ENIAC foi concebido para fazer cálculos de rota de mísseis utilizando muitas variáveis que fazia muito
+      mais rápido do que uma pessoa. Nesse meio surgiu a DARPA (agencia de projeto de pesquisas avançadas). Depois
+      surgiu a Arpanet (sistema de comunicação em pacotes, enviados um a um e que permitia múltiplos destinos. Estudos
+      sobre nós, pontos de intersecção de informações. Fez sua primeira conexão entre dois pontos em 1969 entre a UCLA
+      (universidade da Califórnia) e SRI (Sanford Research Insitute). Nessa comunicação foi enviada a palavra LOGIN, mas
+      do outro lado só chegou LO. Primeira conexão e a primeira queda de conexão ao mesmo tempo. Depois foi criado
+      TCP/IP e com o tempo foi ganhando mais robustez essa rede e dessa rede foram criando micro-redes.
+    <p>Em 1989, Tim Berners-Lee (considerado o pai da internet, mas basicamente ele pegou as ideias, conectou e
+      popularizou) viu a oportunidade de unir hipertexto com TCP/IP e criar a World Wide Web (www) pois até então nada
+      era popular, era tudo voltado para o lado militar e científico. Com o tempo as empresas também foram criando a
+      suas subnets e Tim Berners viu que iria ficar uma zona, todos se comunicando de um jeito com nets espalhadas.
+      Então ele criou o www, que é basicamente a comunicação utilizando o hipertexto, ou seja, o HTML.
+    <p>
+    <p>HTML é um arquivo de marcação de hipertexto tanto que o nome HTML significa Hipertext Markup Language e ele foi o
+      cara que criou o primeiro navegador chamado de WWW(WorldWideNet). A partir dele o Mosaic e assim vem o Netscape e
+      assim por diante. 6 de agosto de 1991 ele publicou a primeira pagina web: http://info.cern.ch/</p>
+    <p> Em resumo, a internet começou como um projeto dos militares dos Estados Unidos, nos anos 1960, para que
+      computadores de diferentes lugares pudessem se comunicar, mesmo em caso de guerra e com o tempo, universidades e
+      cientistas começaram a usar essa rede para trocar informações. Nos anos 1990, a internet foi aberta para o
+      público, e aí tudo mudou. Criaram sites, e-mails, redes sociais... e a internet virou parte da vida de todo mundo.
+    </p>
+    <br>
+
+     <h2 id="clients">O que são <i>Clients</i>- clientes?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p><strong><u>Clients:</u> </strong> São os dispositivos que as pessoas usam, como celular, computador ou tablet.
+      Eles pedem informações.</p>
+    <p>Por exemplo: quando você entra num site, seu navegador (como o Chrome) está sendo um cliente, pedindo o conteúdo
+      do site.</p>
+    <br>
+
+     <h2 id="servers">O que são <i>Servers</i> - servidores?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p><strong><u>Servers:</u> </strong> São computadores especiais que guardam os dados e informações, como sites,
+      fotos, vídeos, etc. Eles ficam ligados o tempo todo, esperando receber pedidos dos clientes. Quando um cliente faz
+      um pedido, uma requisição (como abrir um site), o servidor responde, enviando o que foi pedido.</p>
+    <p>Exemplo simples de <strong>Clients x Servers:</strong> Você (cliente) pede uma pizza. A pizzaria (servidor)
+      recebe o pedido e entrega a pizza. Na internet é parecido: você pede um site, o servidor envia pra você.</p>
+    <br>
+
+  <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p><strong><u>HTML</u> </strong> não é uma linguagem de programação. HTML <i>(HyperText Markup Language)</i> é
+      basicamente um arquivo de marcação. Ele é um arquivo de texto delimitados por nomes que o navegador consegue
+      interpretar, as tags. Cada nome destes delimitadores tem uma função e um comportamento específico. O HTML 5 tem a
+      função de estruturar nossa página. Abaixo darei início a explicação de alguns tipos de tags que aprendemos no
+      curso de html da DIO, lembrando que se para ver todas entre no site w3schools.com</p>
+    <br>
+    <hr>
+
+     <h2 id="principais">Principais Tags Básicas do HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Veja abaixo algumas das tags mais usadas no HTML:</p>
+
+    <h2>&lt;html&gt;</h2>
+    <p>É a tag que envolve todo o conteúdo da página. Mostra que o documento é HTML.</p>
+
+    <h2>&lt;head&gt;</h2>
+    <p>Contém informações que não aparecem diretamente na página, como o título e a codificação.</p>
+
+    <h2>&lt;title&gt;</h2>
+    <p>Define o título da aba do navegador.</p>
+
+    <h2>&lt;body&gt;</h2>
+    <p>Onde fica o conteúdo visível da página (textos, imagens, links, etc).</p>
+
+    <h2>&lt;h1&gt; até &lt;h6&gt;</h2>
+    <p>São títulos. O &lt;h1&gt; é o maior e mais importante, e o &lt;h6&gt; é o menor.</p>
+
+    <h2>&lt;p&gt;</h2>
+    <p>Usado para parágrafos de texto.</p>
+
+    <h2>&lt;br&gt;</h2>
+    <p>Quebra de linha (como apertar "enter").</p>
+
+    <h2>&lt;hr&gt;</h2>
+    <p>Traça uma linha horizontal contínua.</p>
+
+    <h2>&lt;strong&gt; &lt;em&gt; &lt;i&gt; &lt;b&gt; &lt;u&gt; &lt;mark&gt; &lt;sub&gt; &lt;sup&gt; &lt;blockquote&gt;</h2>
+    
+    <ul>
+      <li><strong>&lt;strong&gt;</strong>: Deixa o texto em <strong>negrito (ênfase)</strong>)</li>
+      <li><strong>&lt;b&gt;</strong>: Deixa o texto em <b>negrito</b> </li>
+      <li> <strong>&lt;em&gt;</strong>: Deixa o texto em <em>itálico (ênfase)</em> </li>
+      <li><strong>&lt;i&gt;</strong>: Deixa o texto em <i>itálico</i> </li>
+      <li> <strong>&lt;u&gt;</strong>: Deixa o texto em <u>sublinhado</u> </li>
+      <li><strong>&lt;mark&gt;</strong>: Destaca um trecho como se fosse um marca-texto.</li>
+      <li><strong>&lt;sub&gt;</strong>: Texto subscrito (abaixo da linha).</li>
+      <li><strong>&lt;sup&gt;</strong>: Texto sobrescrito (acima da linha).</li>
+      <li><strong>&lt;blockquote&gt;</strong>: Citação em bloco com recuo automático.</li>
+   </ul>
+    
+
+    <h2>&lt;a href=""&gt;</h2>
+    <p>Cria um link. Exemplo: <a href="https://www.google.com" target="_blank"> Clique para abrir o Google </a> </p>
+
+    <h2> Listas &lt;ul&gt;, &lt;ol&gt; e &lt;li&gt;</h2>
+    <p>
+       <strong>&lt;ul&gt;</strong>: Lista não ordenada (com marcadores):<br>
+    <ul>
+      <li>Lista não ordenada (&lt;ul&gt;)</li>
+      <li>Itens com &lt;li&gt;</li>
+    </ul>
+
+    <br>
+
+    <strong>&lt;ol&gt;</strong>: Lista ordenada (com números):<br>
+
+    <ol>
+      <li>Lista ordenada (&lt;ol&gt;)</li>
+      <li>Itens com números</li>
+    </ol>
+
+    <br>
+
+     <strong>&lt;li&gt;</strong>: Cada item da lista
+
+    </p>
+    <br>
+    <hr>
+
+    <h2 id="formulario">Campos de Formulário - Tags Input e seus tipos</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Usamos <strong>&lt;form&gt</strong> para criar formulários. Dentro dele, usamos <strong>&lt;input&gt</strong>
+      para receber informações do usuário.</p>
+    <br>
+
+    <form>
+      <fieldset>
+        <h2>&lt;input type="text"&gt;</h2>
+        <p>Campo de texto comum, para digitar nomes, palavras, etc.</p>
+        <label for="nome">Seu nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>&lt;input type="email"&gt;</h2>
+        <p>Campo específico para e-mail. Verifica se o formato está correto.</p>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>&lt;input type="password"&gt;</h2>
+        <p>Campo onde os caracteres aparecem ocultos (com bolinhas ou asteriscos).</p>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>&lt;input type="number"&gt;</h2>
+        <p>Permite inserir apenas números (com setinhas para aumentar ou diminuir).</p>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade">
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>&lt;input type="date"&gt;</h2>
+        <p>Campo com calendário para escolher uma data.</p>
+        <label for="data">Data de nascimento:</label>
+        <input type="date" id="data" name="data">
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>&lt;input type="radio"&gt;</h2>
+        <p>Botões de seleção única. Só é possível marcar um por grupo (mesmo "name").</p>
+        <label>Gênero:</label>
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="feminino"> Feminino
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>&lt;input type="checkbox"&gt;</h2>
+        <p>Caixinhas de seleção múltipla. Pode marcar mais de uma opção.</p>
+        <label>Interesses:</label>
+        <input type="checkbox" name="interesse" value="html"> HTML
+        <input type="checkbox" name="interesse" value="css"> CSS
+        <input type="checkbox" name="interesse" value="js"> JavaScript
+      </fieldset>
+      <br>
+
+      <fieldset>
+        <h2>&lt;input type="Range"&gt;</h2>
+        <label for="volume">Volume:</label><br>
+        <input type="range" id="volume" name="volume" min="0" max="100" value="50"><br><br>
+        </div>
+
+        <div>
+          <label for="brilho">Brilho da tela:</label><br>
+          <input type="range" id="brilho" name="brilho" min="1" max="10" value="5"><br><br>
+        </div>
+      </fieldset>
+      <br>
+
+      <fieldset>
+        <h2>&lt;input type="file"&gt;</h2>
+        <p>Permite escolher e enviar um arquivo do seu computador.</p>
+        <label for="arquivo">Anexar arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo">
+        <br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>&lt;input type="color"&gt;</h2>
+        <p>Abre um seletor de cores.</p>
+        <label for="cor">Escolha uma cor:</label>
+        <input type="color" id="cor" name="cor">
+        <br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>&lt;textarea&gt;</h2>
+        <p>Usado para textos longos ou mensagens com várias linhas.</p>
+        <label for="mensagem">Mensagem:</label>
+        <br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="40" placeholder="Escreva aqui..."></textarea>
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>&lt;select&gt; e &lt;option&gt;</h2>
+        <p>Cria um menu suspenso com várias opções para o usuário escolher.</p>
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado">
+          <option value="">Selecione</option>
+          <option value="sp">São Paulo</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="mg">Minas Gerais</option>
+        </select>
+      </fieldset>
+      <br>
+      <fieldset>
+        <h2>Botões: submit e reset</h2>
+        <p><code>submit</code> envia os dados do formulário, e <code>reset</code> limpa tudo.</p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+      </fieldset>
+    </form>
+
+    <br>
+    <hr>
+
+     <h2 id="midia">Tags de Mídia no HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>HTML permite adicionar diversos tipos de mídias, como imagens, vídeos e áudios. Vamos ver como funciona cada uma:
+    </p>
+    <br>
+
+    <h2>&lt;img&gt; – Inserir imagens</h2>
+    <p>A tag <strong>&lt;img&gt;</strong> insere uma imagem no site. Src é a fonte da sua imagem. Pode ser um arquivo
+      local da sua máquina ou uma imagem web. Lógico que se um dia essa imagem sair do ar na web, também irá sair do seu
+      site. </p>
+    <p>A tag <strong>&lt;figure&gt;</strong> e <strong>&lt;figcaption&gt;</strong> são usadas para agrupar mídias com
+      uma legenda. Ótimo para acessibilidade e organização.</p>
+    <p>Atributos comuns:</p>
+    <ul>
+      <li><code>src</code> = caminho da imagem</li>
+      <li><code>width</code> e <code>height</code> = controlam o tamanho. Recomendado colocar só o width pois ela se
+        ajusta proporcional</li>
+      <li><code>title</code> = balãozinho quando passa o mouse em cima da imagem escrito o que você quiser.</li>
+      <li><code>alt</code> = texto alternativo (importante para acessibilidade)</li>
+    </ul>
+
+    <p>Exemplo:</p>
+    <figure>
+      <img
+        src="https://images.unsplash.com/photo-1611348586755-53860f7ae57a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhcm58ZW58MHx8MHx8fDA%3D"
+        alt="Imagem de exemplo do site Unsplash de uma pessoa escrevendo" title="Imagem de uma pessoa escrevendo"
+        width="300">
+      <figcaption>Imagem de exemplo do site www.unsplash.com</figcaption>
+    </figure>
+
+    <br>
+
+    <h2>&lt;audio&gt; – Inserir áudio</h2>
+    <p>A tag <strong>&lt;audio&gt;</strong> adiciona um áudio no site. Use o atributo <strong>controls</strong> para
+      mostrar os controles (play, pause).</p>
+    <p>É importante oferecer mais de um formato para compatibilidade.</p>
+
+    <p>Exemplo:</p>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+    <br>
+    <br>
+    <h2>&lt;video&gt; – Inserir vídeo</h2>
+    <p>Usado para exibir vídeos. Pode ter atributos como:</p>
+    <ul>
+      <li><code>controls</code> – exibe os botões (play, pause, volume...)</li>
+      <li><code>autoplay</code> – inicia o vídeo automaticamente (evite usar sem som)</li>
+      <li><code>loop</code> – reinicia quando termina</li>
+      <li><code>muted</code> – começa sem som</li>
+    </ul>
+
+    <p>Exemplo:</p>
+    <video width="320" height="240" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Seu navegador não suporta vídeos.
+    </video>
+
+    <br>
+
+    <h2>&lt;iframe&gt; – Incorporar conteúdo externo</h2>
+    <p>Usado para inserir páginas externas, vídeos do YouTube, mapas, etc.</p>
+
+    <p>Exemplo de vídeo incorporado (vídeo do YouTube de um cover da música Valerie):</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jm-FH82lVbE?si=HTMCQeZ3gmYdAW51"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br>
+    <br>
+
+    <p>Exemplo de mapa incorporado (mapa do Google Maps da minha cidade Caxias do Sul - RS):</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111487.09146223262!2d-51.1735087!3d-29.165508899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ebcd16435f073%3A0xf514f707b5773bf4!2sCaxias%20do%20Sul%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1752961519581!5m2!1spt-BR!2sbr"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <br>
+    <hr>
+
+     <h2 id="tabela">Tags para Tabelas em HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Uma tabela serve para mostrar informações organizadas em linhas e colunas, como uma planilha.</p>
+    <p>As principais tags de tabela são:</p>
+    <ul>
+      <li><code>&lt;table&gt;</code>: Cria a tabela.</li>
+      <li><code>&lt;tr&gt;</code>: Cria uma linha (<i>table row</i>).</li>
+      <li><code>&lt;th&gt;</code>: Cria um cabeçalho da tabela (<i>table header</i>), normalmente em negrito.</li>
+      <li><code>&lt;td&gt;</code>: Cria uma célula com dados (<em>table data</em>).</li>
+    </ul>
+    <br>
+
+    <p>Atributos e tags que deixam a tabela mais estruturada, com melhor aparência e mais acessível:</p>
+    <ul>
+      <li><code>&lt;caption&gt;</code>: Cria um título para a tabela (opcional).</li>
+      <li><code>colspan</code>: Faz uma célula ocupar mais de uma <strong>coluna</strong>.</li>
+      <li><code>rowspan</code>: Faz uma célula ocupar mais de uma <strong>linha</strong>.</li>
+      <li><code>cellpadding</code>: Espaço <strong>dentro</strong> das células.</li>
+      <li><code>cellspacing</code>: Espaço <strong>entre</strong> as células.</li>
+      <li><code>summary</code>: Descrição da tabela (melhora acessibilidade).</li>
+      <li><code>border</code>, <code>width</code>, <code>align</code>: Ajustam aparência.</li>
+    </ul>
+    <br>
+    <p>Tags que separaram as partes da tabela para melhor semântica:</p>
+
+    <ul>
+      <li><code>&lt;thead&gt;</code>: Cabeçalho da tabela (títulos das colunas).</li>
+      <li><code>&lt;tbody&gt;</code>: Corpo da tabela (conteúdo principal).</li>
+      <li><code>&lt;tfoot&gt;</code>: Rodapé da tabela (soma, total, notas, etc).</li>
+    </ul>
+
+    <br>
+    <p>Exemplo de uma tabela usando todas as tags mencionadas:</p>
+
+    <table border="1" width="350" cellpadding="4" cellspacing="3"
+      summary="Tabela com nomes, idades e cidades. Inclui total no rodapé.">
+      <caption><strong>Tabela de Nomes, idades e cidades</strong></caption>
+
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Cidade</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Luana</td>
+          <td>35</td>
+          <td rowspan="2">Caxias do Sul - RS</td>
+        </tr>
+        <tr>
+          <td>Douglas</td>
+          <td>37</td>
+        </tr>
+        <tr>
+          <td>Marcelo</td>
+          <td>43</td>
+          <td>Porto Alegre - RS</td>
+        </tr>
+
+        <tr>
+          <td>Teresa</td>
+          <td>52</td>
+          <td>Florianópolis - SC</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2"><strong>Total de pessoas:</strong></td>
+          <td><strong>4</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+    <br>
+    <br>
+    <hr>
+
+     <h2 id="referencias">Links de referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Segue alguns links que foram usados de referência para a construção dessa página:</p>
+
+    <ul>
+      <li><a href="https://www.dio.me" target="_blank"> Curso DIO html </a></li>
+      <li><a href=https://www.youtube.com/watch?v=Fhy-5CtVkiM target="_blank"> Vídeo Rafaela Ballerini </a></li>
+      <li><a href="https://www.w3schools.com" target="_blank"> Site w3schools </a></li>
+      <li><a href="https://unsplash.com/pt-br" target="_blank"> Site Unsplash </a></li>
+      <li><a href="https://soundcloud.com" target="_blank"> Site SoundClound </a></li>
+    </ul>
+
+    <br>
+    <br>
+
+    <hr>
+  </main>
+
+  <footer>
+    <p>&copy Primeiro site desenolvido por Luana Mattana Damin - desafio primeiro módulo curso html DIO - Front-End
+      Todos os direitos autorizados.</p>
+    <p>Para conhecer mais sobre mim: <a href="https://www.linkedin.com/in/luana-mattana-damin/" target="_blank"> Acesse
+        meu perfil do LinkedIn </a> </p>
+  </footer>
+
+</body>
+
+</html>
