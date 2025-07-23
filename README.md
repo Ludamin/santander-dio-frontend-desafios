@@ -12,15 +12,6 @@ Repositório criado para armazenar os desafios práticos do Bootcamp de Front-En
 
 Cada pasta contém um desafio resolvido durante o bootcamp, com código-fonte e explicações quando necessário.
 
-📂 santander-dio-frontend-desafios/
-├── desafio-01-html/
-│ └── index.html
-├── desafio-02-css/
-│ └── style.css
-├── desafio-03-js/
-│ └── script.js
-└── README.md
-
 ## 🧠 Objetivo
 
 Este repositório serve como portfólio de aprendizado e evolução durante o bootcamp. Todos os desafios foram feitos com foco em reforçar conhecimentos de desenvolvimento web moderno.
