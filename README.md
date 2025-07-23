@@ -27,3 +27,13 @@ Este repositório serve como portfólio de aprendizado e evolução durante o bo
 ## ⭐ Observações
 
 Este projeto é parte do programa educacional de incentivo ao aprendizado e capacitação profissional oferecido pelo Santander Universidades em parceria com a DIO.
+
+# Santander DIO Frontend Desafios
+
+Este repositório contém os desafios realizados durante o Boot Camp Frontend da DIO, com bolsa do Santander.
+
+## 📁 Desafios concluídos
+
+- ✅ [trilha-html-tags-desafio1](./trilha-html-tags-desafio1): Estrutura básica HTML, resumo e aplicação das tags mais utilizadas.
+- ✅ [trilha-html-wikipedia-desafio2](./trilha-html-wikipedia-desafio2): Página simulando uma entrada da Wikipédia com elementos HTML.
+
