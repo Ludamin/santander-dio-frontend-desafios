@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  gap: 20px;
+}
+
+.header-center {
+  flex: 1;
+  justify-content: center;
+}
+
+.header-right {
+  gap: 20px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
+}
+
+header input {
+  width: 50%;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.user-icons {
+  font-size: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+.video-section {
+  flex: 2;
+}
+
+.video-player img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.channel img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.channel button {
+  margin-left: 20px;
+  padding: 8px 12px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.video-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.video-actions button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.side-video {
+  display: flex;
+  gap: 10px;
+}
+
+.side-video img {
+  width: 168px;
+  height: 94px;
+  border-radius: 6px;
+}
+
+.side-video .title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.side-video .channel,
+.side-video .views,
+.side-video .transmition {
+  font-size: 12px;
+  color: #555;
+}
