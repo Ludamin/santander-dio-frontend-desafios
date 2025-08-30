@@ -1,0 +1,74 @@
+{
+  "name": "Luana Mattana Damin",
+  "photo": "https://avatars.githubusercontent.com/u/140984988?s=400&u=f5f9e6ef3f1acbae161ba4f0f01fd6f4d8a565e5&v=4",
+  "job": "Freelancer",
+  "location": "Caxias do Sul - RS",
+  "phone": "(16) 99999-1599",
+  "email": "ludamin@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/Ludamin/js-developer-portfolio/main/data/imgs/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/Ludamin/js-developer-portfolio/main/data/imgs/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/Ludamin/js-developer-portfolio/main/data/imgs/js.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/Ludamin/js-developer-portfolio/main/data/imgs/react.png"
+      },
+      {
+        "name": "Swift",
+        "logo": "https://raw.githubusercontent.com/Ludamin/js-developer-portfolio/main/data/imgs/swift.png"
+      },
+      {
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/Ludamin/js-developer-portfolio/main/data/imgs/git.png"
+      }
+    ],
+    "softSkills": [
+      "Interesse",
+      "Comprometimento",
+      "Bom senso",
+      "Trabalho em equipe",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR (nativo)",
+    "Inglês (fluente)",
+    "Espanhol (básico)",
+    "Italiano (básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Curso na DIO para a criação de uma Pokedex",
+      "url": "https://github.com/Ludamin/santander-dio-frontend-desafios/tree/main/trilha-javascript-api-pokedex",
+      "github": true
+    },
+    {
+      "name": "Curso DIO para a criação de uma página de portfolio",
+      "url": "https://github.com/Ludamin/santander-dio-frontend-desafios/tree/main/dio-portfolio-lu",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+ 
+    {
+      "name": "Front-End Developer / Freelancer",
+      "period": "2024 - até o momento",
+      "description": "Caminho em construção, loading..."
+    },
+    {
+      "name": "Enecê 3E Indústria e Comércio de vestuário",
+      "period": "2014 - até o momento",
+      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+    }
+  ]
+}
